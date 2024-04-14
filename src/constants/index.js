@@ -1,9 +1,8 @@
 import {  logo314e, ederlogo } from "../assets/images";
 import {
-    car,
     contact,
     css,
-    estate,
+    chat,
     express,
     git,
     github,
@@ -14,16 +13,15 @@ import {
     motion,
     nextjs,
     nodejs,
-    pricewise,
     react,
     redux,
-    snapgram,
-    summiz,
+    netflix,
     tailwindcss,
-    threads,
+    twitterx,
     typescript,
     vuejs,
     reactNative,
+    portfolio,
 } from "../assets/icons";
 
 export const skills = [
@@ -162,45 +160,31 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: portfolio,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Personal Portfolio Of UI/UX Developer',
+        description: 'This UI/UX Developer Portfolio, crafted with Next.js, seamlessly showcases innovative design prowess, interactive elements, and project highlights, offering a compelling glimpse into the developer skills and expertise. With the inclusion of light and dark mode options, users can enjoy a customizable and visually comfortable browsing experience, enhancing accessibility and user satisfaction.',
+        link: 'https://github.com/Jerry-Sharma21/personal_portfolio',
     },
     {
-        iconUrl: threads,
+        iconUrl: twitterx,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Full Stack X (formerly Twitter) Clone',
+        description: 'Created a full-stack replica of the popular discussion platform "X (formerly Twitter)" enabling users to post and engage in threaded conversations.',
+        link: 'https://github.com/Jerry-Sharma21/twitter_clone',
     },
     {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    },
-    {
-        iconUrl: snapgram,
+        iconUrl: netflix,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Full Stack Netflix Clone',
+        description: 'The Netflix Clone project replicates Netflix user interface and features using React.js, allowing users to browse, search, and watch content in a visually similar environment, enhancing their streaming experience.',
+        link: 'https://github.com/Jerry-Sharma21/netflix_clone',
     },
     {
-        iconUrl: estate,
+        iconUrl: chat,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Chat-A-Tale',
+        description: 'The MERN stack-powered Chat App integrates Socket.io for real-time communication, enabling users to engage in seamless, instant messaging and group chats with features like typing indicators and message history.',
+        link: 'https://github.com/Jerry-Sharma21/chat_app_new',
     },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
 ];

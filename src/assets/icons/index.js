@@ -28,6 +28,10 @@ import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import vuejs from './vuejs.svg'
 import reactNative from './reactNative.svg'
+import portfolio from './portfolio.svg'
+import twitterx from './twitterx.svg'
+import netflix from './netflix.svg'
+import chat from './chat.svg'
 
 export {
     css,
@@ -59,5 +63,9 @@ export {
     soundon,
     soundoff,
     vuejs,
-    reactNative
+    reactNative,
+    portfolio,
+    twitterx,
+    netflix,
+    chat
 }
