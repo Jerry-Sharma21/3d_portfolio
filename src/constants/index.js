@@ -115,10 +115,11 @@ export const experiences = [
         iconBg: "#fbc3bc",
         date: "June 2023 - Jan 2024",
         points: [
-            "Led the migration from Vue.js to React Native, resulting in a 30% improvement in UI speed and 100% responsiveness across all devices",
-            "Developed a new UI from scratch in React, leading to a 25% increase in user engagement and satisfaction",
-            "Established a collaborative relationship with the design team to create visually appealing interfaces that exceeded industry standards and received positive user feedback",
-            "Independently integrated essential components such as APIs, Auth0 authentication, Redux, and critical libraries, enhancing functionality and security measures.",
+            "Led the migration from Vue.js to React Native.",
+            "Leveraged Lighthouse audits to enhance UI performance and implement new responsive designs in React Native, achieving a reduction in First Contentful Paint (FCP) from 4 seconds to 2.4 seconds and an improvement in Largest Contentful Paint (LCP) from 6 seconds to 3.9 seconds by optimizing image loading and streamlining CSS.",
+            "Improved Time to Interactive (TTI) by 50% and decreased Total Blocking Time (TBT) by 60% through code splitting, deferring non-critical JavaScript.",
+            "Revamped the entire UI with new, responsive designs in React, ensuring near-zero Cumulative Layout Shift (CLS) by adhering to best practices for layout stability and optimizing asset loading.",
+            "Hand-Coded the embedded stylesheets into 10+ React interfaces and reduced load time by 60%.",
             "Maintained a flawless track record by resolving 100% of reported bugs in production, ensuring a reliable user experience."
         ],
     },
@@ -127,14 +128,13 @@ export const experiences = [
         company_name: "314e corp",
         icon: logo314e,
         iconBg: "#accbe1",
-        date: "Jan 2022 - May 2023",
+        date: "July 2021 - May 2023",
         points: [
-            "Played a pivotal role in the conception and development of a sophisticated Applicant Tracking System (ATS) and Customer Relationship Management (CRM) product.",
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-            "Worked closely with the backend team to implement RESTful APIs, improving product functionality and integration."
+            "Played a key role in the design and development of an advanced Applicant Tracking System (ATS) and Customer Relationship Management (CRM) product using React. Implementing 10+ new features.",
+            "Implemented functional components in React and streamlined CSS based on wireframes and UI/UX guidelines, contributing to a cleaner and more efficient codebase.",
+            "Wrote 70+ comprehensive unit test cases for the UI, which increased coverage by 40%.",
+            "Independently integrated essential components such as APIs, Auth0 authentication, Redux, and critical libraries, enhancing functionality and security measures.",
+            "Actively participated in bug fixing endeavors, achieving approximately 8% monthly reduction in user-reported bugs.",
         ],
     },
 
